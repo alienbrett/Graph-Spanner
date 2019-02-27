@@ -6,7 +6,6 @@
 #include <limits.h>
 
 #include "lib/set.h"
-#include "lib/tree.h"
 #include "lib/maze_tools.h"
 
 
