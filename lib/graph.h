@@ -1,5 +1,5 @@
-#ifndef MAZE_TOOLS
-#define MAZE_TOOLS
+#ifndef GRAPH_TOOLS
+#define GRAPH_TOOLS
 
 #include "set.h"
 
