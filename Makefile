@@ -8,4 +8,5 @@ maze: maze.c lib/*.h set.c graph.c
 	$(CXX) $(CFLAGS) -o maze maze.c set.c graph.c $(LD_FLAGS)
     
 .PHONY: clean
-	rm -rf maze
+clean:
+	rm -rf *.o maze
