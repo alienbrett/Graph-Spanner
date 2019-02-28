@@ -62,7 +62,7 @@ void print_v(vert * v)
 {
     int x = MIN(v->a,v->b);
     int y = MAX(v->a,v->b);
-    printf("(%d->%d)",x,y);
+    printf("(%d,%d)",x,y);
 }
 
 
@@ -95,7 +95,7 @@ int build_maze(vert * vs, bool * incl, int n_vs, node * ns, int size)
     int n_graphs = size;
     int f = 0;
     
-    printf("building maze...\n");
+    //printf("building maze...\n");
 
     for (int i = 0; n_graphs > 1; i++)
     {
